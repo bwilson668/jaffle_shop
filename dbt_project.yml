@@ -1,7 +1,7 @@
 
-name: 'jaffle_shop'
+name: 'jaffle'
 version: '0.1'
-profile: 'jaffle_shop'
+profile: 'jaffle'
 config-version: 2
 
 source-paths: ["models"]
@@ -17,7 +17,7 @@ clean-targets:
     - "logs"
 
 models:
-  jaffle_shop:
+  jaffle:
       materialized: table
       staging:
         materialized: view
